@@ -172,10 +172,12 @@ final class Optimize extends BaseCommand
 
                 CLI::write(implode("\n\n", $messages), 'green');
                 CLI::write();
+
                 return;
             }
 
             CLI::error('Error in updating file: ' . clean_path($config));
+
             throw new RuntimeException(__METHOD__);
         }
 
