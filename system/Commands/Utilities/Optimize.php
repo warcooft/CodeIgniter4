@@ -60,9 +60,9 @@ final class Optimize extends BaseCommand
      * @var array
      */
     protected $options = [
-        'c' => 'Enable config cache',
-        'l' => 'Enable locator cache',
-        'r' => 'Restore default cache settings',
+        'c' => 'Enable config caching.',
+        'l' => 'Enable locator caching.',
+        'd' => 'Disable config and locator caching.',
     ];
 
     /**
