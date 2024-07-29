@@ -73,7 +73,7 @@ final class Optimize extends BaseCommand
         // Parse options
         $enableConfigCache  = CLI::getOption('c');
         $enableLocatorCache = CLI::getOption('l');
-        $restoreDefaults    = CLI::getOption('r');
+        $disable    = CLI::getOption('d');
 
         try {
             $this->enableCaching($enableConfigCache, $enableLocatorCache, $restoreDefaults);
