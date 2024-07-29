@@ -52,7 +52,7 @@ final class Optimize extends BaseCommand
      *
      * @var string
      */
-    protected $usage = 'optimize [-c] [-l] [-r]';
+    protected $usage = 'optimize [-c] [-l] [-d]';
 
     /**
      * The Command's options
